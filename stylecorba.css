@@ -1,0 +1,113 @@
+﻿
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 250px;
+    background-color: #ffa1a1;
+    background-size: 100% 100%;
+}
+
+    .container .navbar {
+        width: 100%;
+        height: 80px;
+        background: rgb(0, 135, 0,0.4);
+    }
+
+.navbar .logo {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+    .navbar .logo a {
+        text-decoration: none;
+        font-size: 30px;
+        font-family: sans-serif;
+        color: #f3f3f3;
+    }
+
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+}
+
+    .navbar ul li {
+        display: inline-block;
+        margin: 0 8px;
+        line-height: 80px;
+    }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            padding: 6px 13px;
+            font-family: 'Franklin Gothic';
+        }
+
+            .navbar ul li a.active,
+            .navbar ul li a:hover {
+                background: #229e45;
+                border-radius: 2px;
+            }
+
+.container .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+}
+
+.center h1 {
+    margin-top:250px;
+    text-align: center;
+}
+.center h2 {
+    color:#ff5959;
+    font-size: 40px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+    font-family: Algerian;
+}
+.center h4 {
+    color: #854e0d;
+    font-size: 40px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+    font-family:'Vladimir Script';
+}
+
+table {
+    margin: 20px auto; /* Tabloyu yatayda ortalar ve üst-alt boşluk bırakır */
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.center p {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+    font-family: sans-serif;
+}
+header {
+    position: fixed; /* Header'ı sabitler */
+    top: 0; /* Sayfanın en üstünde durur */
+    left: 0; /* Sayfanın solundan başlar */
+    width: 100%; /* Header genişliği tam sayfa olur */
+    z-index: 1000; /* Diğer elemanların header'ı kapatmamasını sağlar */
+    background-color: #fff; /* Arka plan rengi (isteğe bağlı) */
+    border-bottom: 1px solid #ccc; /* Alt çizgi (isteğe bağlı) */
+}
+body {
+    margin: 0;
+    padding-top: 0px; /* Header'ın yüksekliğine göre ayarlanan boşluk */
+}
+
